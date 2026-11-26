@@ -3,8 +3,8 @@
 An interactive 3D map of MIND-MATTER (ARIA, March – November 2026): silicon devices that compute, and an AI
 scientist, Phlogiston, that studied them with the University of Twente.
 
-**Open the map:** https://anaderix.github.io/mind-matter-metropolis/
-**Narrated tour (about 5 minutes):** https://anaderix.github.io/mind-matter-metropolis/#tour=1&listen
+**Open the map:** https://omniscale-ai.github.io/mind-matter-metropolis/
+**Narrated tour (about 5 minutes):** https://omniscale-ai.github.io/mind-matter-metropolis/#tour=1&listen
 
 - Island 0 — the question: what was known before the programme.
 - Phlogiston — the AI-scientist loop, its approval gate and record, and the two goals tested: autonomy and explainability.
