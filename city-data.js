@@ -1419,6 +1419,13 @@ window.SPIRES_INDEX = [
     },
     "abstract": "Not the mechanism the programme set out to identify, but a calibrated, validated model of the device and of the device class, quantitative hardware requirements, and a precise statement of what the data can and cannot determine about the physics.",
     "links": [],
+    "images": [
+      {
+        "src": "img/map-qr.png",
+        "caption": "Scan to open this map: omniscale-ai.github.io/mind-matter-metropolis",
+        "alt": "QR code linking to the MIND-MATTER map"
+      }
+    ],
     "status": "active",
     "kind": "hub",
     "constraints": [],
