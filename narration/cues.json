@@ -1,0 +1,350 @@
+{
+ "pages": [
+  {
+   "page": 1,
+   "file": "page-01.mp3",
+   "duration": 89.21,
+   "cues": [
+    {
+     "speaker": "maya",
+     "start": 0.0,
+     "end": 7.63,
+     "text": "Welcome to Mind-Matter: nine months of an AI scientist working on silicon devices that compute. I'm Maria."
+    },
+    {
+     "speaker": "owen",
+     "start": 7.93,
+     "end": 13.57,
+     "text": "And I'm Andrey. I'll ask what a reviewer would ask. Where does it start?"
+    },
+    {
+     "speaker": "maya",
+     "start": 13.87,
+     "end": 27.43,
+     "text": "On this island, with what was known before we began. Computers spend most of their energy moving numbers around. A piece of material can compute directly: voltages in, a current out."
+    },
+    {
+     "speaker": "owen",
+     "start": 27.73,
+     "end": 29.3,
+     "text": "What kind of material?"
+    },
+    {
+     "speaker": "maya",
+     "start": 29.6,
+     "end": 43.7,
+     "text": "Doped silicon, made at the University of Twente: a tiny island with eight contacts. Seven set the function, one reads the answer, and the same chip computes different things as the voltages change."
+    },
+    {
+     "speaker": "owen",
+     "start": 44.0,
+     "end": 46.2,
+     "text": "So what was missing?"
+    },
+    {
+     "speaker": "maya",
+     "start": 46.5,
+     "end": 59.24,
+     "text": "The physics. The first paper said the current flows by hopping between dopants. Later work on the same chips pointed to space charge instead, and some studies saw both at once."
+    },
+    {
+     "speaker": "owen",
+     "start": 59.54,
+     "end": 60.77,
+     "text": "Does it matter which?"
+    },
+    {
+     "speaker": "maya",
+     "start": 61.07,
+     "end": 70.95,
+     "text": "For design, it does. With hopping, you tune the dopants and the disorder. With space charge, the geometry, the contacts and the traps."
+    },
+    {
+     "speaker": "owen",
+     "start": 71.25,
+     "end": 72.97,
+     "text": "So, two questions."
+    },
+    {
+     "speaker": "maya",
+     "start": 73.27,
+     "end": 89.54,
+     "text": "Two questions: which mechanism rules these devices, and can we build a model good enough to design with. This table is where we started: space charge as the default, hopping as the alternative, and one candidate ruled out by design."
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "file": "page-02.mp3",
+   "duration": 60.06,
+   "cues": [
+    {
+     "speaker": "owen",
+     "start": 0.0,
+     "end": 1.57,
+     "text": "And who did the work?"
+    },
+    {
+     "speaker": "maya",
+     "start": 1.87,
+     "end": 13.75,
+     "text": "Partly this: Phlogiston, our AI scientist. An agent in a loop. It proposes the next step, calls a tool, reads the result, and proposes again."
+    },
+    {
+     "speaker": "owen",
+     "start": 14.05,
+     "end": 16.17,
+     "text": "And nobody watches it?"
+    },
+    {
+     "speaker": "maya",
+     "start": 16.47,
+     "end": 23.47,
+     "text": "Everything it does goes into a record, and every costly step waits at a gate for a person to approve it."
+    },
+    {
+     "speaker": "owen",
+     "start": 23.77,
+     "end": 25.57,
+     "text": "What were you testing about it?"
+    },
+    {
+     "speaker": "maya",
+     "start": 25.87,
+     "end": 35.9,
+     "text": "Two things. Autonomy: can it catch its own mistakes? And explainability: does it give you a law you can read, not just a good fit?"
+    },
+    {
+     "speaker": "owen",
+     "start": 36.2,
+     "end": 38.48,
+     "text": "And where did it actually work?"
+    },
+    {
+     "speaker": "maya",
+     "start": 38.78,
+     "end": 60.33,
+     "text": "Three kinds of work. Where the choices mattered, it reasoned: it proposed the candidates and picked what to try next, in the first equation campaign, the device models and every network study. It drafted the fabrication request. And for the simulation sweeps, the six later searches and the benchmark, it only scheduled conventional tools."
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "file": "page-03.mp3",
+   "duration": 47.49,
+   "cues": [
+    {
+     "speaker": "maya",
+     "start": 0.0,
+     "end": 12.36,
+     "text": "Now the programme, south to north. First we fixed the rules: what each hypothesis predicts, and what would kill it. Then the first chips, at four etch depths."
+    },
+    {
+     "speaker": "maya",
+     "start": 12.66,
+     "end": 21.25,
+     "text": "Then two hunts at once. The agent went after a formula for the current, and the simulator went after the knob that switches the regime."
+    },
+    {
+     "speaker": "owen",
+     "start": 21.55,
+     "end": 23.59,
+     "text": "Did any of it fail?"
+    },
+    {
+     "speaker": "maya",
+     "start": 23.89,
+     "end": 33.29,
+     "text": "Plenty. The first knob we tried, etch depth, was the wrong one. The right one is how many dopants at the contact are active."
+    },
+    {
+     "speaker": "maya",
+     "start": 33.59,
+     "end": 47.62,
+     "text": "And in equation discovery, a plain package with no physics beat the agent's search, once it was handed the step the agent had found. The agent gave the shape of the law; the optimiser did the search better."
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "file": "page-04.mp3",
+   "duration": 27.59,
+   "cues": [
+    {
+     "speaker": "owen",
+     "start": 0.0,
+     "end": 2.35,
+     "text": "And where did the plan change?"
+    },
+    {
+     "speaker": "maya",
+     "start": 2.65,
+     "end": 17.72,
+     "text": "Here, in July. The devices that could settle the mechanism, a doping series and two more etch depths, were never made. And on the very dataset where hopping was first claimed, four different laws fit equally well."
+    },
+    {
+     "speaker": "owen",
+     "start": 18.02,
+     "end": 20.22,
+     "text": "So you gave up on the mechanism?"
+    },
+    {
+     "speaker": "maya",
+     "start": 20.52,
+     "end": 27.68,
+     "text": "We bounded it, and turned north: from finding the mechanism to building a model of the device itself."
+    }
+   ]
+  },
+  {
+   "page": 411,
+   "file": "page-411.mp3",
+   "duration": 3.87,
+   "cues": [
+    {
+     "speaker": "owen",
+     "start": 0.0,
+     "end": 3.87,
+     "text": "Your turn. Click a road that was planned and never built."
+    }
+   ]
+  },
+  {
+   "page": 412,
+   "file": "page-412.mp3",
+   "duration": 7.08,
+   "cues": [
+    {
+     "speaker": "maya",
+     "start": 0.0,
+     "end": 7.08,
+     "text": "Exactly. Grey roads are the experiments that never happened, and each has its reason on the card."
+    }
+   ]
+  },
+  {
+   "page": 413,
+   "file": "page-413.mp3",
+   "duration": 8.44,
+   "cues": [
+    {
+     "speaker": "maya",
+     "start": 0.0,
+     "end": 8.44,
+     "text": "Close. The grey roads are these: the doping series, the sixty and eighty nanometre devices, and the foundry batch."
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "file": "page-05.mp3",
+   "duration": 24.48,
+   "cues": [
+    {
+     "speaker": "maya",
+     "start": 0.0,
+     "end": 9.72,
+     "text": "Ten new chips, five diameters. One network per chip, learned down to its noise, and one four-number code for the whole class."
+    },
+    {
+     "speaker": "owen",
+     "start": 10.02,
+     "end": 12.29,
+     "text": "And what is that good for?"
+    },
+    {
+     "speaker": "maya",
+     "start": 12.59,
+     "end": 24.55,
+     "text": "Designing hardware before you build it. On that model, the networks told us that diameter hardly matters where the interconnect can compensate, and that the control voltages need six to eight bits."
+    }
+   ]
+  },
+  {
+   "page": 6,
+   "file": "page-06.mp3",
+   "duration": 39.81,
+   "cues": [
+    {
+     "speaker": "owen",
+     "start": 0.0,
+     "end": 2.59,
+     "text": "So what did you actually find?"
+    },
+    {
+     "speaker": "maya",
+     "start": 2.89,
+     "end": 14.35,
+     "text": "Seven things, on this island. Etch depth switches the regime, somewhere between fifty-five and seventy nanometres, and the active dopants at the contact set the boundary."
+    },
+    {
+     "speaker": "maya",
+     "start": 14.65,
+     "end": 27.32,
+     "text": "A closed-form law with a step in it, which no sum of power laws can mimic. A model of each chip down to its noise, and of the whole class. And hard numbers for the hardware."
+    },
+    {
+     "speaker": "owen",
+     "start": 27.62,
+     "end": 29.35,
+     "text": "And the mechanism?"
+    },
+    {
+     "speaker": "maya",
+     "start": 29.65,
+     "end": 39.91,
+     "text": "Bounded, not found. The regime looks like space charge; whether hopping is underneath, no measurement says yes, and none says no."
+    }
+   ]
+  },
+  {
+   "page": 7,
+   "file": "page-07.mp3",
+   "duration": 54.8,
+   "cues": [
+    {
+     "speaker": "maya",
+     "start": 0.0,
+     "end": 8.75,
+     "text": "Now let's switch to another view of the same city: the metro map. Every study is a station, and every line is one phase of the work."
+    },
+    {
+     "speaker": "owen",
+     "start": 9.05,
+     "end": 13.73,
+     "text": "Now the part most projects hide. Eight red crosses."
+    },
+    {
+     "speaker": "maya",
+     "start": 14.03,
+     "end": 23.51,
+     "text": "It's the point of an AI scientist. A probe that fails is cheap, so you can afford many of them, and the record keeps every one."
+    },
+    {
+     "speaker": "owen",
+     "start": 23.81,
+     "end": 27.05,
+     "text": "And the results you had already reported?"
+    },
+    {
+     "speaker": "maya",
+     "start": 27.35,
+     "end": 38.19,
+     "text": "Five were taken back. Four of them we caught ourselves, before anyone asked; for the fifth, a colleague pointed out that rounding is deterministic, not noise."
+    },
+    {
+     "speaker": "maya",
+     "start": 38.49,
+     "end": 52.05,
+     "text": "So the deliverable is not the mechanism we set out to find, but a calibrated model, hard numbers for the hardware, and an honest list of what the data can and cannot tell. Negative results included."
+    },
+    {
+     "speaker": "owen",
+     "start": 52.35,
+     "end": 55.04,
+     "text": "Honest. I'll take it."
+    }
+   ]
+  }
+ ]
+}
